@@ -26,6 +26,7 @@
       });
       console.log(data);
       fn(data);
+      window.open('payment.html');
       this.reset();
       this.elements[0].focus();
     });
