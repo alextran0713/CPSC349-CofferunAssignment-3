@@ -16,7 +16,7 @@
   formHandler.addSubmitHandler(function (data) {
     myTruck.createOrder.call(myTruck, data);
     checkList.addRow.call(checkList, data);
-    window.open('payment.html');
+    window.open('payment.html')
   });
 
 })(window);
