@@ -45,7 +45,7 @@
         }
         console.log(item.name + "	is	" + item.value);
       });
-      // window.alert("Thank you for your payment " + title + name);
+      window.alert("Thank you for your payment " + title + name);
       fn(data);
       this.reset();
       this.elements[0].focus();
