@@ -4,7 +4,6 @@
   var FormHandler = App.FormHandler;
   var payment = new FormHandler(FORM_SELECTOR_PAYMENT);
 
-  payment.addSubmitHandlerPayment(function (data) {
-  });
+  payment.addSubmitHandlerPayment(function(data) {});
 
 })(window);

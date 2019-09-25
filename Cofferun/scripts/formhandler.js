@@ -37,15 +37,15 @@
       var data = {};
       $(this).serializeArray().forEach(function(item) {
         data[item.name] = item.value;
-        if (item.name === 'username'){
+        if (item.name === 'username') {
           name = item.value;
         }
-        if (item.name === 'title'){
+        if (item.name === 'title') {
           title = item.value;
         }
         console.log(item.name + "	is	" + item.value);
       });
-      window.alert("Thank you for your payment " + title + name);
+      // window.alert("Thank you for your payment " + title + name);
       fn(data);
       this.reset();
       this.elements[0].focus();

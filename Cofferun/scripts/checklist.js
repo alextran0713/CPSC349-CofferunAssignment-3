@@ -2,6 +2,7 @@
   "use strict";
   var App = window.App || {};
   var $ = window.jQuery;
+
   function CheckList(selector) {
     if (!selector) {
       throw new Error("No selector provided");
@@ -32,6 +33,7 @@
       .closest("[data-coffee-order='checkbox']")
       .remove();
   };
+
   function Row(coffeeOrder) {
     var $div = $("<div></div>", {
       "data-coffee-order": "checkbox",
